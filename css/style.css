@@ -1,0 +1,384 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+.header1{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+    z-index: 7;
+    
+}
+.logo1{
+    width: auto;
+    height: 60px;
+    float: left;
+    margin-left: 50px;
+}
+.list{
+    list-style-type: none;
+    float: right;
+    margin-right: 150px;
+
+}
+.list li{
+    display: inline-block;
+        margin-left: 25px;
+      color: white;
+        font-size: 20px;
+}
+.list li a{
+    color: white;
+    text-decoration: none;
+}
+/* end header section 1 */
+
+/* /////////////////////////////////////////////////////////// */
+
+
+.div2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../pic/medium-shot-people-travel-agency.jpg);
+    background-size: cover;
+    color: white;
+    margin-top: 33px;
+    opacity: 0.7;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-top: 300px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.agency1{
+        font-size: 120px;
+        
+}
+.but1{
+    width: 200px;
+    height: 70px;
+    border: 5px solid E2F6CA;
+    border-radius: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: 191717;
+    color: F8FDCF;
+    font-size: x-large;
+}
+.but1:hover{
+    background-color: azure;
+    color: 56BBF1;
+}
+/* end section 3 */
+
+/* //////////////////////////////////////////////////////////////////// */
+.parent2{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10%;
+    
+
+}
+.line1{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(42, 42, 175);
+    margin: 0px 900px;
+    
+}
+.box3{
+    width: 350px;
+    height: 200px;
+    border: 3px solid rgb(54, 53, 53);
+    float: left;
+   margin-left: 200px;
+   margin-top: 100px;
+   transition: 3s;
+}
+.icon3{
+color: rgba(13, 13, 219, 0.63);
+font-size: 30px;
+margin-top: 10px;
+}
+.title1{
+    font-size: 30px;
+    font-weight: bold;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: x-large;
+    color: blue;
+}
+.box3:hover{
+    width: 350px;
+    height: 200px;
+    background-color: grey;  
+    color: white;
+    
+}
+
+            /* end section 3 */
+
+.title-Outgoing-Offers{
+        text-align: center;
+  
+}
+.line2{
+    width: 160px;
+    height: 5px;
+    background-color: rgb(42, 42, 175);
+    margin-left:850px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.team-item {
+    float: left;
+    background-color: rgb(187, 187, 187);
+    width: 30%;
+    padding: 14px  18px;
+    text-align: center;
+    position: relative;
+}
+.ww {
+    margin: 0px  5%;
+}
+.team-img {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.team-img  img {
+    width: 100%;
+}
+
+.team-overley {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    visibility: hidden;
+    opacity: 0;
+}
+.team-item:hover .team-overley{
+    visibility: visible;
+    opacity: 0.9;
+}
+.team-overley a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(53, 171, 240);
+    color: #fff;
+    font-size: 23px ;
+    margin-left: auto ;
+}
+.team-overley  a  i {
+    line-height: 40px ;
+}
+
+.team-info-title {
+    text-transform: uppercase;
+    padding: 12px  0px;
+    color: rgb(58, 58, 58);
+}
+.team-info-sp1 {
+    text-transform: capitalize;
+    color: grey;
+}
+.team-item:hover  .team-info-title {
+    color: #fff;
+}
+.team-item:hover  .team-info-sp1 {
+    color: blue;
+}
+.team-item::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0px;
+    top: 0;
+    right:0;
+     background-color: rgba(3, 3, 0.5);
+    opacity: 1;
+    transition: 3s;
+
+}
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+                        /* /end section 3 */
+
+.title-Outgoing-Offers6{
+    margin-top: 400px;
+    text-align: center;
+}
+
+.parent6box{
+    margin-top: 150px;
+    position: relative;
+           
+        }
+.box-iteam6{
+    width: 350px;
+    height: 150px;
+  border: 3px solid rgb(17, 17, 17); 
+  float: left;
+  margin-left: 170px;
+  text-align: center;
+  position: relative;
+   
+   }
+
+   i{
+    color: 007FFF;
+    font-size: 30px;
+   }
+   .content-offer6{
+    font-size: 50px;
+   }
+   .box-iteam6::after{
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    top: 0;
+    left: 0;
+    background-color: rgb(8, 8, 8);
+   opacity: 0;
+    transition: 3s;}
+
+   .box-iteam6:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;}
+
+                         /* ////// End Section 4 */
+   .continer-checkbox{
+    width: 100vw;
+    height:80vh;
+    margin-top: 500px;
+    margin-left: 60px;
+    
+   }
+   .check-boxh2{
+    font-size: 50px;
+    color: 212529;
+   }
+   .check-box3{
+    font-size: x-large;
+    color: 343a40;
+    
+   }
+   .img-check{
+    margin: -400px 900px;
+    
+       }
+
+       
+
+
+                            /* ///// end Section 5 */
+
+       .parent-rods{
+        width: 100vw;
+        height: 50vh;
+        background-image: url(../pic/00pexels-gabriel-peter-696680.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        overflow: auto;
+        text-align: center;
+        z-index: 2;
+         
+                }
+       .rods33-uu{
+               
+        float: left;
+        margin: 100px 190px;
+        font-size: 50px;
+        color: white;
+        z-index: 1;
+        
+        
+         }
+         .rods33-ee{
+        float: left; 
+        margin: 75px 100px;
+        font-size: 50px;
+        color: white;
+        z-index: 1;
+         }
+         .rods33-rr{
+        float: left;
+        margin: 75px 100px;
+        font-size: 50px;
+        color: white;
+        z-index: 1;
+             
+         }
+         .rods33-tt{
+            float: left;
+            margin: 75px 100px;
+        font-size: 50px;
+        color: white;
+        z-index: 1;
+         }
+
+        .overlay-yy{
+            position: absolute;
+            width: 100vw;
+            height: 50vh;
+            bottom: auto;
+            background-color: rgb(13, 13, 14);
+            opacity: 0.2;
+            z-index: -1;
+           
+                               
+        } 
+        .nm{
+            font-size: 50px;
+            
+        }
+
+
+        /* ///End Section 6 */
+
+
+        .continer-footer{
+           width: 100vw;
+           height: 30vh;
+           position: relative;
+           background-color: black;
+           
+           }
+         .team-item-footer{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);  
+            text-align: center;  
+            color: white;
+           
+             }
+
+
+             /* //////  End Section 6  */
+             
